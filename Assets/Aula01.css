@@ -1,0 +1,5 @@
+h2 {
+    color: red;
+} 
+
+/* Apesar da forma inline ter maior prioridade de leitura, a forma de declaração externa do CSS - via tag link - é a mais recomendada */
