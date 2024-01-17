@@ -28,4 +28,42 @@ background: lightblue;
 
 /*EXEMPLO SELETOR DE ATRIBUTO*/ 
 
+[title] {
+    color: red;
+}
 
+/* Para inserir o atributo e o seu valor, sendo ainda mais específico, basta fazer o seguinte: */
+
+[title="Prime"] {
+    color: rgb(80, 80, 225);
+}
+
+/* Para identificar uma das palavras existentes no valor do atributo, basta colocar ~ antes do = e escrever uma das palavras que compõem o valor do atributo: */
+
+[title~="Site"] {
+    color: green;
+}
+
+/* Para identificar uma das palavras existentes no valor do atributo com hífen ou exatamente como está escrita, basta colocar | antes do = e escrever uma das palavras que compõem o valor do atributo: */
+
+[title|="Streaming"] {
+    font-weight: bold;
+}
+
+/* Para identificar o atributo e a parte inicial do seu valor, basta colocar ^ antes do = e escrever o atributo e o prefixo do valor: */
+
+[href^="http://"] {
+    background: yellow;
+}
+
+/* Para identificar o atributo e a parte final do seu valor, basta colocar $ antes do = e escrever o atributo e o sufixo do valor: */
+
+[href$="login"] {
+    background: greenyellow;
+}
+
+/* Para identificar uma das palavras existentes no valor do atributo, independentemente de sua posição, basta colocar * antes do = e escrever a palavra desejada que compõe o valor do atributo: */
+
+[href*="pt-BR"] {
+    background: pink;
+}
