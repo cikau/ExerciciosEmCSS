@@ -22,8 +22,9 @@ background: lightblue;
 }
 
 /*EXEMPLO SELETOR UNIVERSAL*/ 
-
-
+* {
+    font-family: 'Courier New', Courier, monospace; 
+}
 
 /*EXEMPLO SELETOR DE ATRIBUTO*/ 
 
