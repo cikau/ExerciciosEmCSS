@@ -12,7 +12,14 @@ background: lightblue;
 
 /*EXEMPLO SELETOR CLASS*/ 
 
+.classe {
+    background: red;
+    color: white;
+}
 
+.texto-maiusculo {
+    text-transform: uppercase;
+}
 
 /*EXEMPLO SELETOR UNIVERSAL*/ 
 
